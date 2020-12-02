@@ -275,6 +275,12 @@ https://www.getpostman.com/
 https://sequelpro.com/
 
 
+## mysql-client
+```bash
+brew install mysql-client
+echo 'export PATH="/usr/local/opt/mysql-client/bin:$PATH"' >> ~/.zshrc
+```
+
 ## terraform
 https://www.terraform.io/downloads.html
 
@@ -297,13 +303,15 @@ chmod +x /usr/local/bin/ecs-cli
 brew install jq
 ```
 
-## mysql-client
-```bash
-brew install mysql-client
-echo 'export PATH="/usr/local/opt/mysql-client/bin:$PATH"' >> ~/.zshrc
-```
-
 ## tree
 ```bash
 brew install tree
+```
+
+## iStat Menus
+https://download.bjango.com/istatmenus/
+
+## Dozer
+```bash
+brew cask install dozer
 ```
