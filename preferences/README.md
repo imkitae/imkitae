@@ -308,8 +308,8 @@ brew install jq
 brew install tree
 ```
 
-## iStat Menus
-https://download.bjango.com/istatmenus/
+## Clipy
+https://github.com/Clipy/Clipy/releases
 
 ## Dozer
 ```bash
