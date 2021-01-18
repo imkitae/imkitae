@@ -308,6 +308,11 @@ brew install jq
 brew install tree
 ```
 
+## Spectacle
+```
+https://www.spectacleapp.com
+```
+
 ## Clipy
 https://github.com/Clipy/Clipy/releases
 
