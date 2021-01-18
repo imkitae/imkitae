@@ -313,5 +313,5 @@ https://github.com/Clipy/Clipy/releases
 
 ## Dozer
 ```bash
-brew cask install dozer
+brew install --cask dozer
 ```
