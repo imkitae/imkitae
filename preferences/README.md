@@ -133,6 +133,7 @@ brew install git
 .DS_Store
 .idea
 memo
+memo.md
 ```
 
 
