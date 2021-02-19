@@ -65,7 +65,7 @@ defaults write -g com.apple.trackpad.scaling -float 10.0
 ### Finder > Preferences...
 
 #### Advance
-- `Show all filename extensions`: on
+- `Show all filene extensions`: on
 
 ### Calendar > Preferences...
 
@@ -160,8 +160,14 @@ DEFAULT_USER="$USER"
 # Enable some pugins
 plugins=(
   aws
+  docker
   git
+  sudo
+  web-search
+  zsh-autosuggestions
 )
+
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=23"
 
 # Define `wifi` cli command
 wifi ()
@@ -309,10 +315,11 @@ brew install jq
 brew install tree
 ```
 
+## Amphetamine
+https://apps.apple.com/kr/app/amphetamine/id937984704?l=en&mt=12
+
 ## Spectacle
-```
 https://www.spectacleapp.com
-```
 
 ## Clipy
 https://github.com/Clipy/Clipy/releases
