@@ -1,0 +1,18 @@
+{
+    "window.title": "${rootName}${separator}${activeEditorShort}",
+    "editor.fontFamily": "Fira Code Retina, Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontSize": 13,
+    "files.insertFinalNewline": true,
+    "workbench.tree.indent": 16,
+    "terminal.integrated.fontFamily": "Fira Code Retina",
+    "terminal.integrated.lineHeight": 1.3,
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.external.osxExec": "iTerm.app",
+    "[terraform]": {
+        "editor.tabSize": 2,
+        "editor.formatOnSave": true
+    },
+    "[markdown]": {
+        "editor.tabSize": 2
+    }
+}
