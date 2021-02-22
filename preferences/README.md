@@ -169,6 +169,13 @@ plugins=(
 
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=23"
 
+# Set timestamp
+RPROMPT='[%D{%H:%M:%S %p}]'
+TMOUT=1
+TRAPALRM() {
+    zle reset-prompt
+}
+
 # Define `wifi` cli command
 wifi ()
 {
