@@ -164,6 +164,11 @@ set list listchars+=trail:⋄ " Set markers for trailing whitespaces
 ## Oh My Zsh
 https://github.com/robbyrussell/oh-my-zsh
 
+#### Install `zsh-autosuggestions` plugin
+```bash
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+```
+
 #### Update ~/.zshrc
 ```bash
 # Remove username@computer from prompt
