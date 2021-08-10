@@ -171,6 +171,9 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 
 #### Update ~/.zshrc
 ```bash
+# Change theme to agnoster
+ZSH_THEME="agnoster"
+
 # Remove username@computer from prompt
 DEFAULT_USER="$USER"
 
@@ -187,7 +190,7 @@ plugins=(
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=23"
 
 # Set timestamp
-RPROMPT='%{$fg[yellow]%}[%D{%f/%m/%y} %D{%L:%M:%S}]'
+RPROMPT='%{$fg[yellow]%}[%D{%f/%m/%y} %D{%L:%M:%S}]%{$reset_color%}'
 
 # Define `wifi` cli command
 wifi ()
