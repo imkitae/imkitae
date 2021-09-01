@@ -2,8 +2,14 @@
     "window.title": "${rootName}${separator}${activeEditorShort}",
     "editor.fontFamily": "Fira Code Retina, Menlo, Monaco, 'Courier New', monospace",
     "editor.fontSize": 13,
+    "editor.renderWhitespace": "selection",
     "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
     "workbench.tree.indent": 16,
+    "workbench.colorCustomizations": {
+      "editorWhitespace.foreground": "#fbff00"
+    },
+    "explorer.compactFolders": false,
     "terminal.integrated.fontFamily": "Fira Code Retina",
     "terminal.integrated.lineHeight": 1.3,
     "terminal.integrated.cursorStyle": "line",

@@ -204,6 +204,11 @@ wifi ()
         networksetup -setairportnetwork en0 ${1} ${WIFI_PASSWORD}
     fi
 }
+
+# nvm
+export NVM_DIR="$HOME/.nvm"
+[ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
+[ -s "/usr/local/opt/nvm/etc/bash_completion.d/nvm" ] && . "/usr/local/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
 ```
 
 
@@ -219,8 +224,15 @@ cp preference/iTerm2/* ~/Library/Application Support/iTerm2/DynamicProfiles/
 
 ## PHP
 ```bash
-brew install php@7.2
 brew install brew-php-switcher
+brew-php-switcher 7.2
+
+# Fix tidy-html5 lib error
+cd /opt/homebrew/opt/tidy-html5/lib
+ln -s libtidy.58.dylib libtidy.5.dylib
+
+# Disable Apache server
+sudo launchctl unload -w /System/Library/LaunchDaemons/org.apache.httpd.plist
 ```
 
 
@@ -235,7 +247,9 @@ composer global require hirak/prestissimo
 
 ## Node
 ```bash
-brew install node@${VERSION_OF_LTS}
+brew install nvm
+nvm install --default ${NODE_VERSION}
+npm install -g yarn
 ```
 
 
@@ -350,4 +364,11 @@ https://github.com/Clipy/Clipy/releases
 ## Dozer
 ```bash
 brew install --cask dozer
+```
+
+## Hammerspoon
+https://www.hammerspoon.org/
+Copy scripts from preferences/Hammerspoon
+```bash
+cp -r preference/Hammerspoon/* ~/.hammerspoon/
 ```
