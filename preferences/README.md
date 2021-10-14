@@ -169,6 +169,12 @@ https://github.com/robbyrussell/oh-my-zsh
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 ```
 
+#### Install `zsh-syntax-highlighting` plugin
+```bash
+git clone https://github.com/zsh-users/zsh-syntax-highlighting ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+
+```
+
 #### Update ~/.zshrc
 ```bash
 # Change theme to agnoster
@@ -185,6 +191,7 @@ plugins=(
   sudo
   web-search
   zsh-autosuggestions
+  zsh-syntax-highlighting
 )
 
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=23"
