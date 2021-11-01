@@ -197,7 +197,7 @@ plugins=(
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=23"
 
 # Set timestamp
-RPROMPT='%{$fg[yellow]%}[%D{%f/%m/%y} %D{%L:%M:%S}]%{$reset_color%}'
+RPROMPT='%{$fg[yellow]%}[%D{%f/%m/%y} %D{%H:%M:%S}]%{$reset_color%}'
 
 # Define `wifi` cli command
 wifi ()
