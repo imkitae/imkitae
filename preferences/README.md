@@ -216,6 +216,20 @@ wifi ()
 export NVM_DIR="$HOME/.nvm"
 [ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
 [ -s "/usr/local/opt/nvm/etc/bash_completion.d/nvm" ] && . "/usr/local/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
+
+# Terraform
+alias tf=terraform
+
+# Python
+alias python=python3
+alias pip=pip3
+
+# wttr.in
+alias weather='curl wttr.in'
+
+# exa
+alias ls=exa
+
 ```
 
 
@@ -378,4 +392,10 @@ https://www.hammerspoon.org/
 Copy scripts from preferences/Hammerspoon
 ```bash
 cp -r preference/Hammerspoon/* ~/.hammerspoon/
+```
+
+## exa
+https://github.com/ogham/exa
+```bash
+brew install exa
 ```
