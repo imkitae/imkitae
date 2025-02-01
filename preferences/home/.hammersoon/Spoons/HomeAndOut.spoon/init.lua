@@ -44,13 +44,13 @@ function obj:toggle()
       tell application "System Events"
         tell process "System Settings"
           click radio button 2 of tab group 1 of group 1 of group 2 of splitter group 1 of group 1 of window 1
-          
+
           set scrollingToggle to checkbox "Natural scrolling" of group 1 of scroll area 1 of group 1 of group 2 of splitter group 1 of group 1 of window 1
 
           if value of scrollingToggle = ]] .. toggle_to_change .. [[ then
             click checkbox "Natural scrolling" of group 1 of scroll area 1 of group 1 of group 2 of splitter group 1 of group 1 of window 1
           end if
-          
+
           tell application "System Settings" to quit
         end tell
       end tell

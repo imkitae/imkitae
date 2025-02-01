@@ -4,7 +4,7 @@ delay 1.0
 tell application "System Events"
   tell process "System Settings"
     click radio button 2 of tab group 1 of group 1 of group 2 of splitter group 1 of group 1 of window 1
-    
+
     try
       set scrollingToggle to checkbox "Natural scrolling" of group 1 of scroll area 1 of group 1 of group 2 of splitter group 1 of group 1 of window 1
 

@@ -46,13 +46,13 @@ function obj:toggle()
         ismett:close()
       end
     end
-  
+
     hs.osascript.applescript([[
       tell application "Google Chrome" to close (every window whose mode is "incognito")
 
       launch application "System Events"
       delay 0.2
-      ignoring application responses        
+      ignoring application responses
         tell application "System Events" to tell process "Clipy"
           click menu bar item 1 of menu bar 2
         end tell
