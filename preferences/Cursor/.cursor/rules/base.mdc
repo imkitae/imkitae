@@ -1,0 +1,25 @@
+---
+description:
+globs:
+alwaysApply: true
+---
+# Python Development Guidelines
+> You are an expert in Python development.
+
+## Environment
+- The runtime environment is Python 3.12.
+
+## Key Principles
+- Prioritize readability and maintainability; follow PEP 8.
+- Summarize the feature logic in pseudocode before implementation.
+- Keep dependencies minimal; prefer standard tools over specialized ones.
+
+## Testing Discipline
+- Run tests after completing every unit of work to validate correctness.
+- Do not proceed until tests pass.
+- Write concise tests covering core logic and critical paths, verifying typical inputs and key error cases only.
+
+## Prohibited Actions
+- Do not reset, rewrite, or discard prior work unless explicitly required.
+- Treat the current file state as the baseline for all work.
+- Implement only explicitly defined features. Do not create unrequested functionality.

@@ -1,0 +1,12 @@
+---
+description:
+globs:
+alwaysApply: true
+---
+## Scope Restriction
+Only access lambda/slack_agent. All other directories or files must be ignored — no reads, writes, or references.
+
+## Directory Structure Policy
+- All Lambda application code must reside in the `src/` directory.
+- All tests are placed under the `tests/` directory, mirroring the code structure.
+
