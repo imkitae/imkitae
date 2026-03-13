@@ -33,8 +33,8 @@ I like building the parts that sit between product delivery and platform reality
 
 ## ✨ Highlights
 
-- Led an IDC to AWS migration at RIDI
-- Reduced cloud cost by 50%+ at Greenlabs
+- Led an IDC to AWS migration
+- Reduced cloud cost by optimization
 - Shipped new services under tight timelines
 - Built and operated LLM agent systems
 - 15 years across backend, SRE, and DevOps
@@ -59,9 +59,9 @@ I like building the parts that sit between product delivery and platform reality
 ## 📌 Selected Signals
 
 ```text
-RIDI         migration, backend leadership, service launch
-Greenlabs    platform standardization, finops, llm ops
-KCD          infrastructure cleanup, internal platform, product support
+migration, backend leadership, service launch
+platform standardization, finops, llm ops
+infrastructure cleanup, internal platform, product support
 ```
 
 ## 🧠 Principles
